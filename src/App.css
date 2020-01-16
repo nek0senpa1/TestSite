@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  /* justify-content: space-between; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-segment-1 {
+  display: flex;
+  border: 15px;
+  width: 20%;
+}
+
+
+.App-segment {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
